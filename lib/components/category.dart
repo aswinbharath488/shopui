@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shopui/components/card_button.dart';
 import 'package:shopui/constants.dart';
-import 'package:shopui/model/Category.dart';
+import 'package:shopui/model/category.dart';
 
 class Catergories extends StatelessWidget {
   const Catergories({

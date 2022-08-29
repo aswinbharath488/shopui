@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shopui/components/color_dot.dart';
 
 import 'package:shopui/constants.dart';
-import 'package:shopui/model/Product.dart';
+import 'package:shopui/model/product.dart';
 
 class DetailsPage extends StatelessWidget {
   const DetailsPage({

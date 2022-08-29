@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shopui/components/product_card.dart';
 import 'package:shopui/components/row_text.dart';
 import 'package:shopui/constants.dart';
-import 'package:shopui/model/Product.dart';
+import 'package:shopui/model/product.dart';
 import 'package:shopui/screens/details_page.dart';
 
 class PopularCard extends StatelessWidget {
