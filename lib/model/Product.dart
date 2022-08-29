@@ -33,7 +33,7 @@ List<Product> demoproduct = [
   ),
   Product(
     image: "assets/images/product_3.png",
-    title: "Casual Nolin",
+    title: "Casual Nolin Shirts",
     price: 149,
     bgColor: const Color(0xFFEEEEED),
   ),
