@@ -15,12 +15,12 @@ class Catergories extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
           children: List.generate(
-        demo_categories.length,
+        democategories.length,
         (index) => Padding(
           padding: const EdgeInsets.only(right: defaultPadding),
           child: CardButton(
-            title: demo_categories[index].title,
-            icon: demo_categories[index].icon,
+            title: democategories[index].title,
+            icon: democategories[index].icon,
             fun: () {},
           ),
         ),

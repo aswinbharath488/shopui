@@ -6,7 +6,7 @@ class Category {
   Category({required this.icon, required this.title});
 }
 
-List<Category> demo_categories = [
+List<Category> democategories = [
   Category(
     icon: "assets/icons/dress.svg",
     title: "Dress",

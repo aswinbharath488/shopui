@@ -23,7 +23,7 @@ class PopularCard extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           child: Row(
             children: List.generate(
-                demo_product.length,
+                demoproduct.length,
                 (index) => Padding(
                       padding: const EdgeInsets.only(left: defaultPadding),
                       child: ProductCard(
@@ -31,13 +31,13 @@ class PopularCard extends StatelessWidget {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) =>  DetailsPage(
-                                        product: demo_product[index])));
+                                    builder: (context) => DetailsPage(
+                                        product: demoproduct[index])));
                           },
-                          img: demo_product[index].image,
-                          title: demo_product[index].title,
-                          price: demo_product[index].price,
-                          bgColor: demo_product[index].bgColor),
+                          img: demoproduct[index].image,
+                          title: demoproduct[index].title,
+                          price: demoproduct[index].price,
+                          bgColor: demoproduct[index].bgColor),
                     )),
           ),
         ),
